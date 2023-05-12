@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    background-image: url('/img/fondo3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+  }
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(126, 126, 126, 0.1); 
+  }
+
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+img {
+    width: 10rem;
+}
+
+*{
+    color: white;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+  }
+  
+  .gif-container img {
+    width: 300px; 
+    height: auto; 
+  }
+
+  .gif2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+  }
+  
+  .gif2-container img {
+    width: 300px; 
+    height: auto; 
+  }
+  
+  
+
+  .col-12 {
+    border-radius: 5px; 
+    overflow: hidden; 
+  }
+  
+  .bg-success {
+    border-radius: 5px; 
+    overflow: hidden; 
+  }
+
+
